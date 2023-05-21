@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/Proyectos-CSS/Wmedia ejecicios/notifications-page-main/css/main.css">
+  <script defer src="/Proyectos-CSS/Wmedia ejecicios/notifications-page-main/js/main.js"></script>
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <!--NOTIFICATIONS -->
+  <main class="notifications">
+
+    <!--HEADER-->
+    <header class="header">
+      <h1 class="header__title">Notifications <span class="unread-count">3</span></h1>
+      <a href="#" class="header__link">Mark all as read</a>
+    </header>
+
+    <!--NOTIFICACION NO LEIDA-->
+    <article class="notification notification--unread">
+      <img class="avatar" src="/Proyectos-CSS/Wmedia ejecicios/notifications-page-main/assets/images/avatar-mark-webber.webp" alt="user avatar">
+      <h2 class="notification__title"><strong>Mark Webber</strong> reacted to your recent post <a href="" class="link link--post">My first tournament today!</a><span class="unread-bubble"></span></h2>
+      <p class="date">1m ago</p>
+    </article>
+    <hr>
+    <article class="notification notification--unread">
+      <img class="avatar" src="/Proyectos-CSS/Wmedia ejecicios/notifications-page-main/assets/images/avatar-angela-gray.webp" alt="user avatar">
+      <h2 class="notification__title"><strong>Angela Gray</strong> followed you<span class="unread-bubble"></span></h2>
+      <p class="date">5m ago</p>
+    </article>
+    <hr>
+    <article class="notification notification--unread">
+      <img class="avatar" src="/Proyectos-CSS/Wmedia ejecicios/notifications-page-main/assets/images/avatar-jacob-thompson.webp" alt="user avatar">
+      <h2 class="notification__title"><strong>Jacob Thompson</strong> has joined your group <a href="" class="link link--group">Chess Club</a><span class="unread-bubble"></span></h2>
+      <p class="date">yersterday</p>
+    </article>
+    <hr>
+
+    <!--NOTIFICACION CON VISTA PREVIA-->
+    <article class="notification notification--message">
+      <img src="/Proyectos-CSS/Wmedia ejecicios/notifications-page-main/assets/images/avatar-rizky-hasanuddin.webp" alt="User Avatar" class="avatar">
+      <h2 class="notification__title"><strong>Rizky Hasanuddin</strong> sent you a private message</h2>
+      <p class="date">5 days ago</p>
+      <p class="notification__message">
+        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+        I'm already having lots of fun and improving my game.
+      </p>
+    </article>
+    <hr>
+
+    <!--NOTIFICACION CON IMAGEN-->
+    <article class="notification notification--picture">
+      <img class="avatar" src="/Proyectos-CSS/Wmedia ejecicios/notifications-page-main/assets/images/avatar-kimberly-smith.webp" alt="user avatar">
+      <h2 class="notification__title"><strong>Kimberly Smith</strong> commented on your picture</h2>
+      <img class="notification__image" src="/Proyectos-CSS/Wmedia ejecicios/notifications-page-main/assets/images/image-chess.webp" alt="image attached">
+      <p class="date">1 week ago</p>
+    </article>
+    <hr>
+
+    <!--NOTIFICACION-->
+    <article class="notification notification--unread">
+      <img class="avatar" src="/Proyectos-CSS/Wmedia ejecicios/notifications-page-main/assets/images/avatar-nathan-peterson.webp" alt="user avatar">
+      <h2 class="notification__title"><strong>Nathan Peterson</strong> reacted to your recent post 5 end-game strategies to increase your win rate</h2>
+      <p class="date">2 weeks ago</p>
+    </article>
+    <hr>
+
+    <article class="notification">
+      <img class="avatar" src="/Proyectos-CSS/Wmedia ejecicios/notifications-page-main/assets/images/avatar-anna-kim.webp" alt="user avatar">
+      <h2 class="notification__title"><strong>Anna Kim</strong> left the group <a href="" class="link link--group">Chess Club</a></h2>
+      <p class="date">2 weeks ago</p>
+    </article>
+
+  </main>
+
+  <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  -->
+</body>
+
+</html>

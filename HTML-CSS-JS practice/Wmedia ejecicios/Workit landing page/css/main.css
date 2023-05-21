@@ -1,0 +1,252 @@
+/* GENERALES */
+
+:root {
+  --acent-color: #00ffc8;
+  --main--color: #28004d;
+  --popis-font : 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 780px;
+  background-color: rgb(0, 2, 37);
+}
+
+/* CABECERA */
+
+header {
+
+}
+
+.semicircleBackground {
+    position: relative;
+    height: 320px;
+    background: var(--main--color);
+    border-bottom-left-radius: 50% 5%;
+    border-bottom-right-radius: 50% 5%;
+}
+
+/*
+.semicircleBackground{
+  position: relative;
+  background: var(--main--color);
+  height: 35vh;
+  z-index: -1;
+}
+
+.semicircleBackground::before {
+  position: absolute;
+  content: '';
+  left: 50%;
+  z-index: -1;
+  width: 100%;
+  height: 7vh;
+  border-radius: 50%;
+  background: inherit;
+  transform: translateX(-50%) translateY(50%);
+  bottom: 0px;
+}
+*/
+
+.top-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.name-page,
+.request-access {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.name-page span {
+  font-weight: 400;
+}
+
+.request-access {
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-color: var(--acent-color);
+  text-decoration-thickness: 2px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  margin: -10px 0 0 0;
+}
+
+h1 .subline {
+  content: "data";
+  text-decoration: underline;
+  text-decoration-color: #00ffc8;
+  text-decoration-thickness: 3px;
+  
+}
+
+.learn-more {
+  margin: 1rem auto;
+  top:80%;
+  max-width: 100px;
+  height: auto;
+  font-family: 'Poppins';
+  text-align: center;
+  color: black;
+  background-color: var(--acent-color);
+  padding: .5rem 0;
+}
+
+.learn-more a {
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+
+
+/* CONTENT */
+
+
+.phone-pic {
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.phone-pic img{
+  width: 300px;
+  
+  z-index: 2;
+}
+
+
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 0.5rem;
+  font-family: var(--popis-font);
+}
+
+.numberList{
+  width: 2rem;
+  height: 2rem;
+  border: thin solid rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  
+}
+
+.numberList li {
+  list-style: none;
+  text-align: center;
+}
+
+.content h4 {
+  color: var(--main--color);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+/* HERO IMAGE */
+.welcome {
+  width: 100%;
+  background-color: white;
+  padding: 2rem 0;
+}
+
+.welcomeWindow {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+}
+
+.heroPic {
+  border-radius: 50%;
+  max-width: 200px;
+  margin-right: -50px;
+  margin-top: -150px;
+}
+
+.heroMessage {
+  background-color: var(--main--color);
+  font-family: var(--popis-font);
+  font-size: 1rem;
+  color: white;
+  padding: 25px;
+}
+
+.heroMessage h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
+
+
+.requestAccess {
+  border: none;
+  text-align: center;
+  background-color: var(--acent-color);
+  padding: 10px;
+  margin: 0 0 10px 0;
+}
+
+/* FOOTER */
+
+.aboustUs {
+  width: 100%;
+  max-width: 780px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.workitLogo {
+  margin: 10px auto;
+}
+
+.workitLogo a {
+  font-size: 2rem;
+  color: black;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social a {
+  margin: 10px;
+  color: black;
+}

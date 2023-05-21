@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>BWD4DEV</title>
+  <link rel="stylesheet" href="portfolio-responsive-style.css">
+  <script src="https://kit.fontawesome.com/00b8ca5222.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--SECCION INICIO-->
+  <section id="inicio">
+    <div class="contenido">
+      <header>
+        <div class="contenido-header">
+          <h1>/BWD4DEV/</h1>
+          <nav id="nav" class="responsive">
+            <ul>
+              <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+              <li><a href="#sobre-mi" onclick="seleccionar(this)">SOBRE MI</a></li>
+              <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+              <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+              <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+            </ul>
+          </nav>
+
+  <!--Iconos del menu responsive-->
+          <div id="icono-nav" onclick="responsiveMenu()">
+            <label for="check" class="mostrar-menu">
+              &#8801
+            </label>
+            <!--<i class="fa-solid fa-bars"></i>-->
+          </div>
+
+  <!--ICONOS REDES SOCIALES-->
+          <div class="redes-sociales">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </header>
+      <div class="presentacion">
+        <p class="bienvenida">Bienvenido</p>
+        <h2>Soy <span>Brian Alvarez</span>, desarrolador Frontend</h2>
+        <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis suscipit provident odio consequatur.</p>
+        <a href="#portfolio">Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!--SECCION SOBRE MI-->
+  <section id="sobre-mi">
+    <div class="contenedor-foto">
+      <img src="./images/perfil.png" alt="">
+    </div>
+    <div class="sobre-mi">
+      <p class="titulo-seccion">Sobre Mi</p>
+      <h2>Hola, soy <span>Brian Alvarez</span></h2>
+      <h3>Desarrollador Frontend</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vero odio maxime ea architecto inventore, distinctio pariatur aut dolor velit.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, dolorem.</p>
+      <a href="#">Descargar CV</a>
+    </div>
+  </section>
+
+  <!--SECCION SERVICIOS-->
+  <section id="servicios">
+    <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+    <div class="fila">
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseno de sitios Web</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate a minus non, doloremque dolor aut praesentium dolorem?</p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseno de sitios Web</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate a minus non, doloremque dolor aut praesentium dolorem?</p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseno de sitios Web</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate a minus non, doloremque dolor aut praesentium dolorem?</p>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseno de sitios Web</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate a minus non, doloremque dolor aut praesentium dolorem?</p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseno de sitios Web</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate a minus non, doloremque dolor aut praesentium dolorem?</p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseno de sitios Web</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate a minus non, doloremque dolor aut praesentium dolorem?</p>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseno de sitios Web</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate a minus non, doloremque dolor aut praesentium dolorem?</p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseno de sitios Web</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate a minus non, doloremque dolor aut praesentium dolorem?</p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseno de sitios Web</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate a minus non, doloremque dolor aut praesentium dolorem?</p>
+      </div>
+    </div>
+  </section>
+
+  <!--SECCION HABILIDADES-->
+  <div class="contenedor-habilidades">
+    <h3>HABILIDADES</h3>
+    <div class="habilidad">
+      <div class="info">
+        <p><span class="html"></span>HTML</p>
+        <span class="porcentaje">65%</span>
+      </div>
+      <div class="barra">
+        <div id="html" class="barra-progreso1"></div>
+      </div>
+    </div>
+    <div class="habilidad">
+      <div class="info">
+        <p><span class="css"></span>CSS</p>
+        <span class="porcentaje">45%</span>
+      </div>
+      <div class="barra">
+        <div id="css" class="barra-progreso2"></div>
+      </div>
+    </div>
+    <div class="habilidad">
+      <div class="info">
+        <p><span class="js"></span>Javascript</p>
+        <span class="porcentaje">8%</span>
+      </div>
+      <div class="barra">
+        <div id="js" class="barra-progreso3"></div>
+      </div>
+    </div>
+    <div class="habilidad">
+      <div class="info">
+        <p><span class="ecma"></span>ECMA Script//DOM//POO</p>
+        <span class="porcentaje">0%</span>
+      </div>
+      <div class="barra">
+        <div id="ecma" class="barra-progreso4"></div>
+      </div>
+    </div>
+    <div class="habilidad">
+      <div class="info">
+        <p><span class="ps"></span>Photoshop</p>
+        <span class="porcentaje">60%</span>
+      </div>
+      <div class="barra">
+        <div id="photoshop" class="barra-progreso5"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--PORTAFOLIO-->
+  <section id="portfolio">
+    <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+    <div class="fila">
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="./images/proyecto1.png" alt="">
+        <div class="info">
+          <h4>Descripcion del proyecto</h4>
+          <p>Diseno web</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="./images/proyecto2.png" alt="">
+        <div class="info">
+          <h4>Descripcion del proyecto</h4>
+          <p>Diseno web</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="./images/proyecto3.png" alt="">
+        <div class="info">
+          <h4>Descripcion del proyecto</h4>
+          <p>Diseno web</p>
+        </div>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="./images/proyecto4.png" alt="">
+        <div class="info">
+          <h4>Descripcion del proyecto</h4>
+          <p>Diseno web</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="./images/proyecto5.png" alt="">
+        <div class="info">
+          <h4>Descripcion del proyecto</h4>
+          <p>Diseno web</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="./images/proyecto6.png" alt="">
+        <div class="info">
+          <h4>Descripcion del proyecto</h4>
+          <p>Diseno web</p>
+        </div>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="./images/proyecto7.png" alt="">
+        <div class="info">
+          <h4>Descripcion del proyecto</h4>
+          <p>Diseno web</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="./images/proyecto8.png" alt="">
+        <div class="info">
+          <h4>Descripcion del proyecto</h4>
+          <p>Diseno web</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="./images/proyecto9.png" alt="">
+        <div class="info">
+          <h4>Descripcion del proyecto</h4>
+          <p>Diseno web</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--SECCION CONTACTO-->
+  <section id="contacto">
+    <h3 class="titulo-seccion">Contacto</h3>
+    <div class="contenedor-form">
+      <form action="">
+        <div class="fila mitad">
+          <input type="text" placeholder="Nombre completo" class="input-mitad">
+          <input type="email" placeholder="Direccion de Email" class="input-mitad">
+        </div>
+        <div class="fila">
+          <input type="text" placeholder="Asunto" class="input-full">
+        </div>
+        <div class="fila">
+          <textarea name="" id="" cols="30" rows="10" class="input-full" placeholder="mensaje..."></textarea>
+        </div>
+
+        <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+      </form>
+    </div>
+  </section>
+
+  <!--SECCION FOOTER-->
+  <footer>
+    <p>Todos los derechos reservados ~ 2022</p>
+    <div class="redes-footer">
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!--<body>
+  <h3 class="productos-stock-titulo">Productos en Stock</h3>
+  <article class="productos-stock-lista">
+    <ul>
+      <li>Articulos de Cocina</li>
+      <li>Electronica</li>
+      <li>Dormitorio</li>
+      <li>Cuidado Personal</li>
+      <li>Indumentaria</li>
+    </ul>
+    <hr>
+  </article>
+</body>
+

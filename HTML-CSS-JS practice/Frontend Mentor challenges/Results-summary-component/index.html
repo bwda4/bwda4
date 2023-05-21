@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="/Frontend Mentor challenges/Results-summary-component/css/main.css"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!--MAIN WINDOW-->
+    <main class="widget">
+      <!--RESULT SIDE-->
+      <aside class="yourResult">
+        <article class="yourResult__content">
+          <h2 class="yourResult__title">Your Result</h2>
+          <div class="yourResult__score">
+            <p class="yourResult__score--scored">76</p>
+            <p class="yourResult__score--of100">of 100</p>
+          </div>
+          <span class="yourResult__result">Great</span>
+          <p class="yourResult__result--detail">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </article>
+      </aside>
+
+      <!--SUMMARY SIDE-->
+      <aside class="summary">
+        <arcticle class="summary__content">
+          <h2 class="summary__tittle">Summary</h2>
+
+          <div class="summary__content__type" id="reaction">
+            <span class="atribute"
+              ><img
+                src="/Frontend Mentor challenges/Results-summary-component/assets/images/icon-reaction.svg"
+                alt=""
+              />Reaction</span
+            >
+            <span class="points">80 / 100</span>
+          </div>
+
+          <div class="summary__content__type" id="memory">
+            <span class="atribute"
+              ><img
+                src="/Frontend Mentor challenges/Results-summary-component/assets/images/icon-memory.svg"
+                alt=""
+              />Memory</span
+            >
+            <span class="points">92 / 100</span>
+          </div>
+
+          <div class="summary__content__type" id="verbal">
+            <span class="atribute"
+              ><img
+                src="/Frontend Mentor challenges/Results-summary-component/assets/images/icon-verbal.svg"
+                alt=""
+              />Verbal</span
+            >
+            <span class="points">61 / 100</span>
+          </div>
+
+          <div class="summary__content__type" id="visual">
+            <span class="atribute"
+              ><img
+                src="/Frontend Mentor challenges/Results-summary-component/assets/images/icon-visual.svg"
+                alt=""
+              />Visual</span
+            >
+            <span class="points">72 / 100</span>
+          </div>
+
+          <a class="continueButton" href="#">Continue</a>
+        </arcticle>
+      </aside>
+    </main>
+  </body>
+</html>

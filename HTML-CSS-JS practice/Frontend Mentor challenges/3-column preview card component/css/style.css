@@ -1,0 +1,297 @@
+/* GENERALES */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* VENTANA CONTENEDORA */
+.container {
+  border: thin solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  box-shadow: 2px 10px 8px rgba(0, 0, 0, 0.6);
+  display: flex;
+  max-width: 768px;
+  min-width: 320px;
+  margin: 3px;
+  padding: 8px;
+}
+
+/* COLUMNA */
+
+.column {
+  color: white;
+  padding: 2rem;
+  width: 25%;
+  transition: width .3s ease-in;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.activeColumn {
+  width: 50%;
+}
+
+.column:first-of-type {
+  border-radius: 5px 0 0 5px;
+}
+
+.column:last-of-type {
+  border-radius: 0 5px 5px 0;
+}
+
+.title {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 14px;
+  flex-grow: 1;
+  margin-bottom: 5rem;
+}
+
+.learnMoreButton {
+  background-color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: .5rem 1rem;
+}
+
+.sedansButon {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvsButton {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxuryButton {
+  color: hsl(179, 100%, 13%);
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.column-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.column-logo .ico {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+  transform: translateX(20px);
+}
+
+.column-logo #iconLuxury {
+  padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  max-height: 100%;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.mainWindow {
+  width: 1000px;
+  max-height: 700px;
+  margin: 3px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  margin: 1px;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.card-icon {
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.5;
+}
+
+.card h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.card p {
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+.learnMoreButton {
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#button1 {
+  color: orange;
+}
+
+#button2 {
+  color: royalblue;
+}
+
+#button3 {
+  color: darkcyan;
+}
+
+#card1 {
+  background-color: orange;
+  color: white
+}
+
+#card2 {
+  background-color: royalblue;
+  color: white;
+}
+
+#card3 {
+  background-color: darkcyan;
+  color: white;
+}
+
+#card3 .card-icon {
+  padding: 3px;
+}
+
+*/
